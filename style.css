@@ -9,9 +9,15 @@ body {
 
 }
 
-.img-1{
+.col-md-2.col2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+.img-1 {
     margin-top: 400px;
-   
+
 }
 
 .colm-1 {
@@ -20,22 +26,24 @@ body {
     width: 100%;
     align-content: center;
     margin: 0;
+    left: 350px;
 }
 
 
-.nav{
-   ;
+.nav {
+    ;
     display: block;
-    margin: auto; 
+    margin: auto;
     align-content: center;
-    
+
 }
 
-.nav-link{
+.nav-link {
     color: black;
     text-align: center;
 }
-.navbar-brand{
+
+.navbar-brand {
     width: 100%;
     text-align: center;
 }
@@ -64,9 +72,9 @@ body {
 
 
 
-.fab{
+.fab {
     padding: 10px;
-  
+
 }
 
 /*.fa-linkedin {
@@ -78,27 +86,53 @@ body {
 
 
 
-.sec-2,.sec-3,.sec-4,.sec-5{
+.sec-2,
+.sec-3,
+.sec-4,
+.sec-5,
+.sec-6 {
     margin-top: 400px;
     margin-bottom: 400px;
 }
 
 
 
-.head-2{
+.head-2 {
     font-size: 25px;
 }
 
 
-.ed{
+.ed {
     padding-top: 1.5px;
 }
 
 
 
+/*******************media******************/
+
+
+@media screen and (max-width:900px) {
+
+
+
+    .colm-1 {
+        padding-top: 150px;
+        padding-left: 50px;
+        width: 100%;
+        align-content: center;
+        margin: 0;
+        left: 0;
+    }
+
+    .col-md-2.col2 {
+        position: relative;
+        top: none;
+        bottom: none;
+        margin-top: 0px;
+    }
 
 
 
 
 
-
+}
