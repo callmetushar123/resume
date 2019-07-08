@@ -27,7 +27,7 @@
     <div class="container-fluid con-1">
         <div class="row vh-100">
             <!-- streches the viewport vertically-->
-            <div class="col-md-2">
+            <div class="col-md-2" style="position: fixed; top: 0; bottom:0;">
                 <img src="download.png" class="rounded mx-auto d-block img-1" alt="...">
                 <div class="nav">
 
@@ -36,11 +36,11 @@
 
                         <nav class="nav nav-pills flex-column">
 
-                            <a class="nav-link" href="#about">ABOUT</a>
-                            <a class="nav-link" href="#experience">EXPERIENCE</a>
-                            <a class="nav-link" href="#education">EDUCATION</a>
-                            <a class="nav-link" href="#skills">SKILLS</a>
-                            <a class="nav-link" href="#interests">INTERESTS</a>
+                            <a class="nav-link" href="#about" onclick="$(this).addClass('active')">ABOUT</a>
+                            <a class="nav-link" href="#experience" onclick="$(this).addClass('active')">EXPERIENCE</a>
+                            <a class="nav-link" href="#education" onclick="$(this).addClass('active')">EDUCATION</a>
+                            <a class="nav-link" href="#skills" onclick="$(this).addClass('active')">SKILLS</a>
+                            <a class="nav-link" href="#interests" onclick="$(this).addClass('active')">INTERESTS</a>
                         </nav>
                     </nav>
 
@@ -50,7 +50,7 @@
             </div>
 
 
-            <div class="col-md-10 colm-1" data-spy="scroll" data-target="#navbar-example3" data-offset="0">
+            <div class="col-md-10 colm-1" data-spy="scroll" data-target="#navbar-example3" data-offset="0" style="left:350px;">
 
                 <h1 class="display-2 head-1 " id="about">Tushar K Barman</h1>
                 <h6 class="h6">Srimantapur, Bhanagagarh, Guwahati, Assam, India</h6>
